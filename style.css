@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #212529;
+    color: #ADB5BD;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.outer{
+    border: solid #f5f5dc 0.15rem;
+    border-radius: 1rem;
+    padding: 0rem 0.5rem;
+}
+
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Inconsolata', monospace;
+    color: #FFFFFF;
+    font-size: 1.2rem;
+}
+
+.sub{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0;
+}
+
+.text{
+    margin-bottom: 0.5rem;
+}
+
+.calcParent{
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

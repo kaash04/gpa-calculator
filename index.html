@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEM II GPA CALCULATOR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Ubuntu+Mono:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="outer container mt-3 mb-3">
+      <p class="heading">SEM II GPA CALCULATOR</p>
+      <!-- 1st -->
+      <div class="container-fluid sub sub1">
+        <p class="text text1">SUB1:</p>
+        <div
+          class="btn-group container-fluid"
+          role="group"
+          aria-label="Basic radio toggle button group"
+        >
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="1A++"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="1A++">A++</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="1A+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="1A+">A+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="1A"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="1A">A</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="1B+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="1B+">B+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="1B"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="1B">B</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="1C+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="1C+">C+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio"
+            id="1C"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="1C">C</label>
+        </div>
+      </div>
+
+      <!-- 2nd -->
+      <div class="container-fluid sub sub2">
+        <p class="text text2">SUB2:</p>
+        <div
+          class="btn-group container-fluid"
+          role="group"
+          aria-label="Basic radio toggle button group"
+        >
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio2"
+            id="2A++"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="2A++">A++</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio2"
+            id="2A+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="2A+">A+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio2"
+            id="2A"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="2A">A</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio2"
+            id="2B+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="2B+">B+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio2"
+            id="2B"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="2B">B</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio2"
+            id="2C+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="2C+">C+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio2"
+            id="2C"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="2C">C</label>
+        </div>
+      </div>
+
+      <!-- 3rd -->
+      <div class="container-fluid sub sub3">
+        <p class="text text3">SUB3:</p>
+        <div
+          class="btn-group container-fluid"
+          role="group"
+          aria-label="Basic radio toggle button group"
+        >
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio3"
+            id="3A++"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="3A++">A++</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio3"
+            id="3A+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="3A+">A+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio3"
+            id="3A"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="3A">A</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio3"
+            id="3B+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="3B+">B+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio3"
+            id="3B"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="3B">B</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio3"
+            id="3C+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="3C+">C+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio3"
+            id="3C"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="3C">C</label>
+        </div>
+      </div>
+      <!-- 4th -->
+      <div class="container-fluid sub sub4">
+        <p class="text text4">SUB4:</p>
+        <div
+          class="btn-group container-fluid"
+          role="group"
+          aria-label="Basic radio toggle button group"
+        >
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio4"
+            id="4A++"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="4A++">A++</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio4"
+            id="4A+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="4A+">A+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio4"
+            id="4A"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="4A">A</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio4"
+            id="4B+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="4B+">B+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio4"
+            id="4B"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="4B">B</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio4"
+            id="4C+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="4C+">C+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio4"
+            id="4C"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="4C">C</label>
+        </div>
+      </div>
+      <!-- 5th -->
+      <div class="container-fluid sub sub5">
+        <p class="text text5">SUB5:</p>
+        <div
+          class="btn-group container-fluid"
+          role="group"
+          aria-label="Basic radio toggle button group"
+        >
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio5"
+            id="5A++"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="5A++">A++</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio5"
+            id="5A+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="5A+">A+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio5"
+            id="5A"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="5A">A</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio5"
+            id="5B+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="5B+">B+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio5"
+            id="5B"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="5B">B</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio5"
+            id="5C+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="5C+">C+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio5"
+            id="5C"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="5C">C</label>
+        </div>
+      </div>
+      <!-- 6th -->
+      <div class="container-fluid sub sub6">
+        <p class="text text6">SUB6:</p>
+        <div
+          class="btn-group container-fluid"
+          role="group"
+          aria-label="Basic radio toggle button group"
+        >
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio6"
+            id="6A++"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="6A++">A++</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio6"
+            id="6A+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="6A+">A+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio6"
+            id="6A"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="6A">A</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio6"
+            id="6B+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="6B+">B+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio6"
+            id="6B"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="6B">B</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio6"
+            id="6C+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="6C+">C+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio6"
+            id="6C"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="6C">C</label>
+        </div>
+      </div>
+      <!-- 7th -->
+      <div class="container-fluid sub sub7">
+        <p class="text text7">SUB7:</p>
+        <div
+          class="btn-group container-fluid"
+          role="group"
+          aria-label="Basic radio toggle button group"
+        >
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio7"
+            id="7A++"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="7A++">A++</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio7"
+            id="7A+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="7A+">A+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio7"
+            id="7A"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="7A">A</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio7"
+            id="7B+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="7B+">B+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio7"
+            id="7B"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="7B">B</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio7"
+            id="7C+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="7C+">C+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio7"
+            id="7C"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="7C">C</label>
+        </div>
+      </div>
+      <!-- 8th -->
+      <div class="container-fluid sub sub8">
+        <p class="text text8">SUB8:</p>
+        <div
+          class="btn-group container-fluid"
+          role="group"
+          aria-label="Basic radio toggle button group"
+        >
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio8"
+            id="8A++"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="8A++">A++</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio8"
+            id="8A+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="8A+">A+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio8"
+            id="8A"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="8A">A</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio8"
+            id="8B+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="8B+">B+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio8"
+            id="8B"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="8B">B</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio8"
+            id="8C+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="8C+">C+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio8"
+            id="8C"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="8C">C</label>
+        </div>
+      </div>
+      <!-- 9th -->
+      <div class="container-fluid sub sub9">
+        <p class="text text9">SUB9:</p>
+        <div
+          class="btn-group container-fluid"
+          role="group"
+          aria-label="Basic radio toggle button group"
+        >
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio9"
+            id="9A++"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="9A++">A++</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio9"
+            id="9A+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="9A+">A+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio9"
+            id="9A"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="9A">A</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio9"
+            id="9B+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="9B+">B+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio9"
+            id="9B"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="9B">B</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio9"
+            id="9C+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="9C+">C+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio9"
+            id="9C"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="9C">C</label>
+        </div>
+      </div>
+      <!-- 10th -->
+      <div class="container-fluid sub sub10">
+        <p class="text text10">SUB10:</p>
+        <div
+          class="btn-group container-fluid"
+          role="group"
+          aria-label="Basic radio toggle button group"
+        >
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio10"
+            id="10A++"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="10A++">A++</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio10"
+            id="10A+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="10A+">A+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio10"
+            id="10A"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="10A">A</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio10"
+            id="10B+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="10B+">B+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio10"
+            id="10B"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="10B">B</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio10"
+            id="10C+"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="10C+">C+</label>
+
+          <input
+            type="radio"
+            class="btn-check"
+            name="btnradio10"
+            id="10C"
+            autocomplete="off"
+            checked
+          />
+          <label class="btn btn-outline-secondary" for="10C">C</label>
+        </div>
+      </div>
+
+      <!-- CALC BUTTON -->
+      <div class="calcParent">
+        <button class="calc btn btn-outline-light">CALCULATE</button>
+      </div>
+    </div>
+  </body>
+</html>
