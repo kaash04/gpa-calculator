@@ -34,10 +34,27 @@ body{
 
 .text{
     margin-bottom: 0.5rem;
+    padding-left: 0.3rem;
 }
 
 .calcParent{
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+}
+
+.resParent{
+    text-align: center;
+}
+
+#res{
+    margin: 1.3rem 0rem 0.8rem 0rem;
+    font-size: 1.5rem;
+    font-family: 'Inconsolata', monospace;
+    display: none;
+    border: dashed #3ceaa4 0.13rem;
+    color: #ffffff;
+    padding: 0.3rem 0.7rem 0.3rem 0.7rem;
+    border-top-left-radius: 0.8rem;
+    border-bottom-right-radius: 0.8rem;
 }
