@@ -45,8 +45,6 @@ body{
 
 #resParent{
     width: 18rem;
-    display: inline-block;
-    opacity: 0;
     z-index: 1;
     position: fixed;
     top: 50%;
@@ -54,7 +52,7 @@ body{
     transform: translate(-50%, -50%);
     background-color: #212529;
     border-radius: 1rem;
-    transition: all 0.4s linear;
+    display: none;
 }
 
 .card-body{
@@ -73,7 +71,6 @@ body{
     left: 0;
     right: 0;
     bottom: 0;
-    transition: filter 0.4s linear;
 }
 
 #res{
