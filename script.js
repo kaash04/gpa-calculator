@@ -16,6 +16,10 @@ document.getElementById("text8").innerHTML = "• (LAB)EGD:";
 document.getElementById("text9").innerHTML = "• Engineering Physics:";
 document.getElementById("text10").innerHTML = "• (LAB)Engineering Physics:";
 
+let resParent = document.getElementById("resParent");
+let blur = document.getElementById("bg");
+let res = document.getElementById("res");
+
 function func() {
   const bee = new subject(
     3,
@@ -26,7 +30,7 @@ function func() {
     1,
     Number(document.querySelector('input[name="btnradio2"]:checked').value)
   );
-  
+
   const cs = new subject(
     2,
     Number(document.querySelector('input[name="btnradio3"]:checked').value)
@@ -66,12 +70,36 @@ function func() {
     1,
     Number(document.querySelector('input[name="btnradio10"]:checked').value)
   );
-  
 
-  let gpa = ((bee.credit*bee.gp)+(beeL.credit*beeL.gp)+(cs.credit*cs.gp)+(csL.credit*csL.gp)+(ws.credit*ws.gp)+(m2.credit*m2.gp)+(egd.credit*egd.gp)+(egdL.credit*egdL.gp)+(phy.credit*phy.gp)+(phyL.credit*phyL.gp))/(bee.credit+beeL.credit+cs.credit+csL.credit+ws.credit+m2.credit+egd.credit+egdL.credit+phy.credit+phyL.credit);
+  let gpa =
+    (bee.credit * bee.gp +
+      beeL.credit * beeL.gp +
+      cs.credit * cs.gp +
+      csL.credit * csL.gp +
+      ws.credit * ws.gp +
+      m2.credit * m2.gp +
+      egd.credit * egd.gp +
+      egdL.credit * egdL.gp +
+      phy.credit * phy.gp +
+      phyL.credit * phyL.gp) /
+    (bee.credit +
+      beeL.credit +
+      cs.credit +
+      csL.credit +
+      ws.credit +
+      m2.credit +
+      egd.credit +
+      egdL.credit +
+      phy.credit +
+      phyL.credit);
 
-  let rounded = Math.round(gpa * 1000)/1000;
-  let div = document.getElementById("res");
-  div.innerHTML = "GPA = " + rounded;
-  div.style.display="inline-block";
+  let rounded = Math.round(gpa * 1000) / 1000;
+  res.innerHTML = "Your calculated GPA is: " + rounded;
+  blur.style.filter = "blur(2.5px)";
+  resParent.style.opacity = "100";
+}
+
+function okay() {
+  blur.style.filter = "blur(0)";
+  resParent.style.opacity = "0";
 }
