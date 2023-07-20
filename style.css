@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar{
+    display: none;
 }
 
 body{
@@ -35,6 +42,7 @@ body{
 .text{
     margin-bottom: 0.5rem;
     padding-left: 0.3rem;
+    font-size: 1.18rem;
 }
 
 .calcParent{
@@ -75,4 +83,9 @@ body{
 
 #res{
     margin-bottom: 0;
+}
+
+.noScroll{
+    height: 100%;
+    overflow: hidden;
 }

@@ -20,7 +20,7 @@ let resParent = document.getElementById("resParent");
 let blur = document.getElementById("bg");
 let res = document.getElementById("res");
 
-function func() {
+function calculate() {
   const bee = new subject(
     3,
     Number(document.querySelector('input[name="btnradio1"]:checked').value)
@@ -95,11 +95,11 @@ function func() {
 
   let rounded = Math.round(gpa * 1000) / 1000;
   res.innerHTML = "Your calculated GPA is: " + rounded;
-  blur.style.filter = "blur(2.5px)";
+  blur.style.filter = "blur(1.8px)";
   resParent.style.display = "inline-block";
 }
 
-function okay() {
+function resOK() {
   blur.style.filter = "blur(0)";
   resParent.style.display = "none";
 }
