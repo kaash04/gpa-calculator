@@ -21,7 +21,7 @@ body {
   border: solid #f5f5dc 0.15rem;
   border-radius: 1rem;
   padding: 0rem 0.5rem;
-  animation: rgb 4s linear 0s infinite;
+  /* animation: rgb 4s linear 0s infinite; */
 }
 
 @keyframes rgb {
