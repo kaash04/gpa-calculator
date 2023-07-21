@@ -1,97 +1,140 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 
-    scrollbar-width: none;
-    -ms-overflow-style: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
-*::-webkit-scrollbar{
-    display: none;
+*::-webkit-scrollbar {
+  display: none;
 }
 
-body{
-    background-color: #212529;
-    color: #ADB5BD;
-    font-family: 'Ubuntu Mono', monospace;
+body {
+  background-color: #212529;
+  color: #adb5bd;
+  font-family: "Ubuntu Mono", monospace;
 }
 
-.outer{
-    border: solid #f5f5dc 0.15rem;
-    border-radius: 1rem;
-    padding: 0rem 0.5rem;
+.outer {
+  border: solid #f5f5dc 0.15rem;
+  border-radius: 1rem;
+  padding: 0rem 0.5rem;
+  animation: rgb 4s linear 0s infinite;
 }
 
-.heading{
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 0.2rem;
-    margin-bottom: 0.5rem;
-    font-family: 'Inconsolata', monospace;
-    color: #FFFFFF;
-    font-size: 1.2rem;
-    text-shadow: 0.09rem 0.09rem 0.1rem #df6adfe3;
+@keyframes rgb {
+  100%,
+  0% {
+    border-color: rgb(255, 0, 0);
+  }
+  8% {
+    border-color: rgb(255, 127, 0);
+  }
+  16% {
+    border-color: rgb(255, 255, 0);
+  }
+  25% {
+    border-color: rgb(127, 255, 0);
+  }
+  33% {
+    border-color: rgb(0, 255, 0);
+  }
+  41% {
+    border-color: rgb(0, 255, 127);
+  }
+  50% {
+    border-color: rgb(0, 255, 255);
+  }
+  58% {
+    border-color: rgb(0, 127, 255);
+  }
+  66% {
+    border-color: rgb(0, 0, 255);
+  }
+  75% {
+    border-color: rgb(127, 0, 255);
+  }
+  83% {
+    border-color: rgb(255, 0, 255);
+  }
+  91% {
+    border-color: rgb(255, 0, 127);
+  }
 }
 
-.sub{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 0;
+.heading {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 0.2rem;
+  margin-bottom: 0.5rem;
+  font-family: "Inconsolata", monospace;
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-shadow: 0.09rem 0.09rem 0.1rem #aaa6aae3;
 }
 
-.text{
-    margin-bottom: 0.5rem;
-    padding-left: 0.3rem;
-    font-size: 1.18rem;
+.sub {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 0;
 }
 
-.calcParent{
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.text {
+  margin-bottom: 0.5rem;
+  padding-left: 0.3rem;
+  font-size: 1.18rem;
 }
 
-#resParent{
-    width: 18rem;
-    max-width: 100vw;
-    z-index: 1;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #212529;
-    border-radius: 1rem;
-    display: none;
+.calcParent {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.card-body{
-    background-color: #212529;
-    color: #FFFFFF;
-    border-radius: 1rem;
+#resParent {
+  width: 18rem;
+  max-width: 100vw;
+  z-index: 1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #212529;
+  border-radius: 1rem;
+  display: none;
+  border: 0.1rem solid rgb(255, 0, 0);
+  animation: rgb 4s linear 0s infinite;
 }
 
-.ok{
-    padding-left: 2rem;
-    padding-right: 2rem;
+.card-body {
+  background-color: #212529;
+  color: #ffffff;
+  border-radius: 1rem;
 }
 
-#bg{
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+.ok {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
-#res{
-    margin-bottom: 0;
+#bg {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
-.noScroll{
-    height: 100%;
-    overflow: hidden;
+#res {
+  margin-bottom: 0;
 }
 
-.star{
-    font-size: 0.8rem;
+.noScroll {
+  height: 100%;
+  overflow: hidden;
+}
+
+.star {
+  font-size: 0.8rem;
 }
