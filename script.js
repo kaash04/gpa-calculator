@@ -5,6 +5,8 @@ class subject {
   }
 }
 
+let w = window.matchMedia("(max-width: 300px");
+
 document.getElementById("text1").innerHTML = "• Basics (Elective):";
 document.getElementById("text2").innerHTML = "• (LAB)Basics:";
 document.getElementById("text3").innerHTML = "• Communication Skill:";
@@ -19,6 +21,16 @@ document.getElementById("text10").innerHTML = "• (LAB)Engineering Physics:";
 let resParent = document.getElementById("resParent");
 let blur = document.getElementById("bg");
 let res = document.getElementById("res");
+
+if (w.matches) {
+  res.innerHTML =
+    "This Website is not optimised for screen width less than 300 Pixels";
+  blur.style.filter = "blur(1.8px)";
+  resParent.style.display = "inline-block";
+  document.getElementById("ctitle").innerHTML = "";
+  document.getElementById("ctext").innerHTML = "";
+  document.getElementById("cbutton").style.display = "none";
+}
 
 function calculate() {
   const bee = new subject(
