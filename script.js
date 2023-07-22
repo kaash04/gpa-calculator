@@ -109,7 +109,7 @@ function calculate() {
   let rounded = Math.round(gpa * 1000) / 1000;
   res.innerHTML = "Your calculated GPA is: " + rounded;
   overlay.style.display = "flex";
-  blur.style.filter = "blur(1.8px)";
+  blur.style.filter = "blur(1.5px)";
   resParent.style.display = "inline-block";
 }
 

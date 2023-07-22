@@ -102,7 +102,7 @@ body {
   display: none;
   /* border: 0.1rem solid rgb(255, 0, 0); */
   box-shadow: 0.2rem -0.2rem 1.8px rgb(255, 0, 0);
-  animation: rgb 7s linear 0s infinite, pop 0.1s linear 0s 1;
+  animation: rgb 7s linear 0s infinite, pop 70ms linear 0s 1;
 }
 
 @keyframes pop {
@@ -142,7 +142,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  transition: filter 0.3s;
+  transition: filter 70ms;
 }
 
 #res {
