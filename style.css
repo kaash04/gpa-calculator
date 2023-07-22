@@ -27,40 +27,40 @@ body {
 @keyframes rgb {
   100%,
   0% {
-    box-shadow: 0rem 0rem 0.5rem 0.2rem rgb(255, 0, 0);
+    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(255, 0, 0);
   }
   8% {
-    box-shadow: 0rem 0rem 0.5rem 0.2rem rgb(255, 127, 0);
+    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(255, 127, 0);
   }
   16% {
-    box-shadow: 0rem 0rem 0.5rem 0.2rem rgb(255, 255, 0);
+    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(255, 255, 0);
   }
   25% {
-    box-shadow: 0rem 0rem 0.5rem 0.2rem rgb(127, 255, 0);
+    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(127, 255, 0);
   }
   33% {
-    box-shadow: 0rem 0rem 0.5rem 0.2rem rgb(0, 255, 0);
+    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(0, 255, 0);
   }
   41% {
-    box-shadow: 0rem 0rem 0.5rem 0.2rem rgb(0, 255, 127);
+    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(0, 255, 127);
   }
   50% {
-    box-shadow: 0rem 0rem 0.5rem 0.2rem rgb(0, 255, 255);
+    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(0, 255, 255);
   }
   58% {
-    box-shadow: 0rem 0rem 0.5rem 0.2rem rgb(0, 127, 255);
+    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(0, 127, 255);
   }
   66% {
-    box-shadow: 0rem 0rem 0.5rem 0.2rem rgb(0, 0, 255);
+    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(0, 0, 255);
   }
   75% {
-    box-shadow: 0rem 0rem 0.5rem 0.2rem rgb(127, 0, 255);
+    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(127, 0, 255);
   }
   83% {
-    box-shadow: 0rem 0rem 0.5rem 0.2rem rgb(255, 0, 255);
+    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(255, 0, 255);
   }
   91% {
-    box-shadow: 0rem 0rem 0.5rem 0.2rem rgb(255, 0, 127);
+    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(255, 0, 127);
   }
 }
 
