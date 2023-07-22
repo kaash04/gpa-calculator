@@ -21,6 +21,7 @@ document.getElementById("text10").innerHTML = "• (LAB)Engineering Physics:";
 let resParent = document.getElementById("resParent");
 let blur = document.getElementById("bg");
 let res = document.getElementById("res");
+let overlay = document.getElementById("overlay");
 
 if (w.matches) {
   res.innerHTML =
@@ -107,6 +108,7 @@ function calculate() {
 
   let rounded = Math.round(gpa * 1000) / 1000;
   res.innerHTML = "Your calculated GPA is: " + rounded;
+  overlay.style.display = "flex";
   blur.style.filter = "blur(1.8px)";
   resParent.style.display = "inline-block";
 }
@@ -114,4 +116,5 @@ function calculate() {
 function resOK() {
   blur.style.filter = "blur(0)";
   resParent.style.display = "none";
+  overlay.style.display = "none";
 }

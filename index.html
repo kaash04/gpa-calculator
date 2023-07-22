@@ -899,18 +899,20 @@
         </div>
       </div>
 
-      <div class="card text-center mb-3" id="resParent">
-        <div class="card-body">
-          <h5 class="card-title" id="ctitle">GPA CALCULATOR</h5>
-          <p class="card-text" id="res">
-            Your calculated GPA is: 
-          </p>
-          <p class="card-text" id="ctext">
-            Press OK to continue
-          </p>
-          <button class="ok btn btn-outline-warning" id="cbutton" onclick="resOK()">
-            OK
-          </button>
+      <div id="overlay">
+        <div class="card text-center mb-3" id="resParent">
+          <div class="card-body">
+            <h5 class="card-title" id="ctitle">GPA CALCULATOR</h5>
+            <p class="card-text" id="res">Your calculated GPA is:</p>
+            <p class="card-text" id="ctext">Press OK to continue</p>
+            <button
+              class="ok btn btn-outline-warning"
+              id="cbutton"
+              onclick="resOK()"
+            >
+              OK
+            </button>
+          </div>
         </div>
       </div>
     </div>
