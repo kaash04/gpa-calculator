@@ -107,7 +107,7 @@ body {
 
 @keyframes pop {
   from{
-    transform: scale(0.8);
+    transform: scale(0);
   }
   to{
     transform: scale(1);
