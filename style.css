@@ -25,42 +25,8 @@ body {
 }
 
 @keyframes rgb {
-  100%,
-  0% {
-    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(255, 0, 0);
-  }
-  8% {
-    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(255, 127, 0);
-  }
-  16% {
-    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(255, 255, 0);
-  }
-  25% {
-    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(127, 255, 0);
-  }
-  33% {
-    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(0, 255, 0);
-  }
-  41% {
-    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(0, 255, 127);
-  }
-  50% {
-    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(0, 255, 255);
-  }
-  58% {
-    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(0, 127, 255);
-  }
-  66% {
-    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(0, 0, 255);
-  }
-  75% {
-    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(127, 0, 255);
-  }
-  83% {
-    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(255, 0, 255);
-  }
-  91% {
-    box-shadow: 0rem 0rem 0.3rem 0.08rem rgb(255, 0, 127);
+  100% {
+    filter: hue-rotate(360deg);
   }
 }
 
@@ -101,20 +67,20 @@ body {
   border-radius: 1rem;
   display: none;
   /* border: 0.1rem solid rgb(255, 0, 0); */
-  box-shadow: 0.2rem -0.2rem 1.8px rgb(255, 0, 0);
-  animation: rgb 7s linear 0s infinite, pop 70ms linear 0s 1;
+  box-shadow: 0 0 7px 1px rgb(255, 0, 0);
+  animation: rgb 7s linear 0s infinite, pop 200ms linear 0s 1;
 }
 
 @keyframes pop {
-  from{
+  from {
     transform: scale(0);
   }
-  to{
+  to {
     transform: scale(1);
   }
 }
 
-#overlay{
+#overlay {
   width: 100vw;
   height: 100vh;
   display: none;
